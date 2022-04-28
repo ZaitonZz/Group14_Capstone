@@ -10,7 +10,8 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.group14_decisionbasedgame.R;
+
+import com.example.talasalitaan.R;
 
 public class main_menu_confirmation extends AppCompatActivity {
 
