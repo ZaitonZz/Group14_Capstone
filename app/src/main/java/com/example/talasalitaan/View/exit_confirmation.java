@@ -9,7 +9,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.group14_decisionbasedgame.R;
+import com.example.talasalitaan.R;
 
 public class exit_confirmation extends AppCompatActivity{
 

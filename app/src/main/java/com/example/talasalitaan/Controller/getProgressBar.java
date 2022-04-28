@@ -14,14 +14,14 @@ import android.widget.TextView;
 public class getProgressBar extends Animation {
     private Context context;
     private TextView textView;
-    private ProgressBar progressBar;
+    private android.widget.ProgressBar progressBar;
     private float from;
     private float to;
     private Class nextActivity;
     private Intent toG;
     private boolean called = false;
 
-    public getProgressBar(Context context, TextView textView, ProgressBar progressBar, float from, float to, Class nextActivity) {
+    public getProgressBar(Context context, TextView textView, android.widget.ProgressBar progressBar, float from, float to, Class nextActivity) {
         this.context = context;
         this.textView = textView;
         this.progressBar = progressBar;
@@ -40,7 +40,7 @@ public class getProgressBar extends Animation {
 
         if (value == to) {
             if (!called){
-            context.startActivity(new Intent(context, this.nextActivity));
+                context.startActivity(new Intent(context, this.nextActivity));
                 Log.d(TAG, "kenji activated");}
             called = true;
             Log.d(TAG, "next act from prg bar activated");

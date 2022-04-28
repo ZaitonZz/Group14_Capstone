@@ -10,7 +10,7 @@ import android.widget.Button;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.group14_decisionbasedgame.R;
+import com.example.talasalitaan.R;
 
 public class pause_screen extends AppCompatActivity {
 
@@ -44,20 +44,20 @@ public class pause_screen extends AppCompatActivity {
         btnSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(pause_screen.this, com.example.group14_decisionbasedgame.view.settings_screen.class)); }});
+                startActivity(new Intent(pause_screen.this, com.example.talasalitaan.View.settings_screen.class)); }});
         getWindow().setAttributes(params);
         btnMainMenu = (Button) findViewById(R.id.btn_MainMenu);
         btnMainMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(pause_screen.this, com.example.group14_decisionbasedgame.view.main_menu_confirmation.class));
+                startActivity(new Intent(pause_screen.this, com.example.talasalitaan.View.main_menu_confirmation.class));
             }
         });
         btnExitGame = (Button) findViewById(R.id.btn_Exit2);
         btnExitGame.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(pause_screen.this, com.example.group14_decisionbasedgame.view.exit_confirmation.class));
+                startActivity(new Intent(pause_screen.this, com.example.talasalitaan.View.exit_confirmation.class));
             }
         });
     }
