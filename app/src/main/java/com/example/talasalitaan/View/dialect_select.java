@@ -19,14 +19,15 @@ public class dialect_select extends AppCompatActivity implements View.OnClickLis
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.character_select_screen);
+        setContentView(R.layout.dialect_screen);
 
         tagalog = findViewById(R.id.chooseTagalog);
         chabacano = findViewById(R.id.chooseChabacano);
         bisaya = findViewById(R.id.chooseBisaya);
         charSelect = findViewById(R.id.charSelect);
         back2 = findViewById(R.id.btn_BACK2);
-
+        charSelect.setOnClickListener(this);
+        back2.setOnClickListener(this);
     }
 
     @Override

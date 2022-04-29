@@ -30,6 +30,8 @@ public class methods {
         btnNo1.setVisibility(View.INVISIBLE);
         btnYes1.setVisibility(View.INVISIBLE);
         btnNext.setVisibility(View.VISIBLE);
+        btnYes2.setVisibility(View.INVISIBLE);
+        btnNo2.setVisibility(View.INVISIBLE);
     }
 
 
@@ -53,6 +55,8 @@ public class methods {
                 userName.setVisibility(View.VISIBLE);
                 btnNew.setVisibility(View.INVISIBLE);
                 btnLearn.setVisibility(View.INVISIBLE);
+                if (userName.equals("")) {
+                    userName.setText("Unknown");}
                 break;
             case 5:
                 userName.setVisibility(View.INVISIBLE);
