@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialectselectpln">
+
+    <Button
+        android:id="@+id/btn_Update3"
+        android:layout_width="413dp"
+        android:layout_height="101dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="385dp"
+        android:layout_marginBottom="245dp"
+        android:background="none"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="lon wa temple, davao city (tagalog)"
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Update2"
+        android:layout_width="473dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="313dp"
+        android:layout_marginBottom="338dp"
+        android:background="none"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="city of flowers, zambuanga city (chabacano)"
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_Restart5"
+        android:layout_width="427dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="246dp"
+        android:layout_marginBottom="430dp"
+        android:background="none"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="osmena peak, cebu city (bisaya)"
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="316dp"
+        android:layout_marginBottom="587dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="DIALECT SELECT"
+        android:textColor="#FF3E2C1E"
+        android:textSize="35dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.047"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.371" />
+
+    <TextView
+        android:id="@+id/btn_CREDITS2"
+        android:layout_width="182dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="213dp"
+        android:layout_marginTop="632dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="19dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="CHARACTER SELECT"
+        android:textColor="#3E2C1E"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/btn_BACK2"
+        android:layout_width="96dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="668dp"
+        android:fontFamily="@font/bowlby_one_sc"
+        android:text="BACK"
+        android:textColor="#3E2C1E"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
