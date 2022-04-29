@@ -5,7 +5,16 @@
       <map>
         <entry key="..\:/Users/Admin/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/activity_main.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/exit_confirmation.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/character_select_screen.xml" value="0.16" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/dialect_screen.xml" value="0.18541666666666667" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/exit_confirmation.xml" value="0.33" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/first_boot_sytem.xml" value="0.33" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/intro_screen.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/main_menu_confirmation.xml" value="0.36614583333333334" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/pause_screen.xml" value="0.18802083333333333" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/player_profile_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/settings_screen.xml" value="0.25" />
+        <entry key="..\:/Users/Jay Gamao/AndroidStudioProjects/Talasalitaan/app/src/main/res/layout/splash_screen.xml" value="0.18802083333333333" />
       </map>
     </option>
   </component>

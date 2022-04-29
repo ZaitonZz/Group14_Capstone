@@ -27,13 +27,6 @@ public class settings_screen extends AppCompatActivity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.settings_screen);
-        DisplayMetrics dm = new DisplayMetrics();
-        getWindowManager().getDefaultDisplay().getMetrics(dm);
-        int width = dm.widthPixels;
-        int height = dm.heightPixels;
-
-
-        getWindow().setLayout((int) (width * .4), (int) (height * .7));
         AudioManager amanager = (AudioManager) getSystemService(Context.AUDIO_SERVICE);
         SharedPreferences sharedPreferences = getSharedPreferences("save",MODE_PRIVATE);
         audioSwitch = (SwitchCompat) findViewById(R.id.switch1);
@@ -59,7 +52,7 @@ public class settings_screen extends AppCompatActivity{
                 }
             }
         });
-        btnBack = (TextView) findViewById(R.id.btn_X);
+        btnBack = (TextView) findViewById(R.id.btn_BACK);
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

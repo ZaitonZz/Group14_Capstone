@@ -7,7 +7,7 @@
     android:background="@drawable/dialectselectpln">
 
     <Button
-        android:id="@+id/btn_Update3"
+        android:id="@+id/chooseTagalog"
         android:layout_width="413dp"
         android:layout_height="101dp"
         android:layout_gravity="center"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_Update2"
+        android:id="@+id/chooseChabacano"
         android:layout_width="473dp"
         android:layout_height="80dp"
         android:layout_gravity="center"
@@ -42,7 +42,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_Restart5"
+        android:id="@+id/chooseBisaya"
         android:layout_width="427dp"
         android:layout_height="55dp"
         android:layout_gravity="center"
@@ -79,7 +79,7 @@
         app:layout_constraintVertical_bias="0.371" />
 
     <TextView
-        android:id="@+id/btn_CREDITS2"
+        android:id="@+id/charSelect"
         android:layout_width="182dp"
         android:layout_height="80dp"
         android:layout_marginStart="213dp"
