@@ -10,15 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Talasalitaan">
         <activity
-            android:name=".Controller.first_boot_system"
+            android:name=".View.splash_screen"
             android:exported="true"
-            android:screenOrientation="landscape">
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Controller.first_boot_system"
+            android:exported="true"/>
+        <activity
+            android:name=".View.main_menu"
+            android:exported="true"/>
+        <activity
+            android:name=".View.character_select"
+            android:exported="true"/>
+        <activity
+            android:name=".View.dialect_select"
+            android:exported="true"/>
+        <activity
+            android:name=".View.exit_confirmation"
+            android:exported="true"/>
+        <activity
+            android:name=".View.settings_screen"
+            android:exported="true"/>
+        <activity
+            android:name=".View.player_profile"
+            android:exported="true"/>
+
+
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
