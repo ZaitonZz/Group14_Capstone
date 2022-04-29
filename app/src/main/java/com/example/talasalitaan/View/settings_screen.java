@@ -14,7 +14,7 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.SwitchCompat;
 
-import com.example.group14_decisionbasedgame.R;
+import com.example.talasalitaan.R;
 
 
 public class settings_screen extends AppCompatActivity{
@@ -71,7 +71,6 @@ public class settings_screen extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 finish();
-                startActivity(new Intent(settings_screen.this, com.example.group14_inheritancerpg.View.Intro_Screen.class));
 
             }
         });
@@ -79,7 +78,7 @@ public class settings_screen extends AppCompatActivity{
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(settings_screen.this, R.string.update, Toast.LENGTH_LONG).show();
+
             }
         });
     }

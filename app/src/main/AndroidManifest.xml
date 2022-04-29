@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Talasalitaan">
         <activity
-            android:name=".MainActivity"
+            android:name=".Controller.first_boot_system"
             android:exported="true"
             android:screenOrientation="landscape">
             <intent-filter>
