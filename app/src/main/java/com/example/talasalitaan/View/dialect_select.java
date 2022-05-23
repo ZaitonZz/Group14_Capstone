@@ -35,10 +35,12 @@ public class dialect_select extends AppCompatActivity implements View.OnClickLis
         switch (view.getId()) {
             case R.id.charSelect:
                 startActivity(new Intent(dialect_select.this, character_select.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 break;
             case R.id.btn_BACK2:
                 startActivity(new Intent(dialect_select.this, main_menu.class));
-
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                break;
         }
     }
 }

@@ -41,7 +41,10 @@ public class main_menu_confirmation extends AppCompatActivity {
         btnConfirm.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(main_menu_confirmation.this, main_menu.class)); }});
+                startActivity(new Intent(main_menu_confirmation.this, main_menu.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+            }});
+
         btnConfirmBack = (Button) findViewById(R.id.btn_ConfirmBack);
         btnConfirmBack.setOnClickListener(new View.OnClickListener() {
             @Override

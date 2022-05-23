@@ -71,7 +71,7 @@ public class settings_screen extends AppCompatActivity{
         btnUpdate.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-
+                Toast.makeText(settings_screen.this, "The app is already running in the latest version", Toast.LENGTH_LONG).show();
             }
         });
     }

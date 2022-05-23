@@ -39,7 +39,7 @@ public class character_select extends AppCompatActivity implements View.OnClickL
 
             case R.id.btn_BACK3:
                 startActivity(new Intent(character_select.this, dialect_select.class));
-
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 break;
         }
     }

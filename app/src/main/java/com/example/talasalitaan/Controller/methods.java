@@ -65,6 +65,7 @@ public class methods {
                 btnFilipino.setVisibility(View.VISIBLE);
                 btnNew.setVisibility(View.INVISIBLE);
                 btnLearn.setVisibility(View.INVISIBLE);
+                hideNext(btnNext);
                 break;
             case 6:
                 txtQ.setText("Do you have much time to spend learning?");
@@ -83,7 +84,7 @@ public class methods {
                 break;
             case 8:
                 Intent intent = new Intent(context, main_menu.class);
-                context.startActivity(intent);
+                context.startActivity(intent );
                 break;
 
 

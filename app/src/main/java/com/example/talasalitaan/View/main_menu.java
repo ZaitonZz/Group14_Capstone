@@ -43,15 +43,19 @@ public class main_menu extends AppCompatActivity implements View.OnClickListener
            // break;
             case R.id.dialectselect_btn:
                 startActivity(new Intent(main_menu.this, dialect_select.class));
-            break;
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                break;
             case R.id.settings_btn:
-            startActivity(new Intent(main_menu.this, settings_screen.class));
-            break;
+                startActivity(new Intent(main_menu.this, settings_screen.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+                break;
             case R.id.quit_btn:
                 startActivity(new Intent(main_menu.this, exit_confirmation.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 break;
             case R.id.userprofile_txt:
                 startActivity(new Intent(main_menu.this, player_profile.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
                 break;
         }
 
