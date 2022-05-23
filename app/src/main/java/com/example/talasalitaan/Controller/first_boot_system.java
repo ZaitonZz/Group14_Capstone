@@ -67,6 +67,8 @@ public class first_boot_system extends AppCompatActivity implements View.OnClick
         btnYes1.setOnClickListener(this);
         btnNo2.setOnClickListener(this);
         btnYes2.setOnClickListener(this);
+
+        enableFullscreen();
     }
 
     @Override
@@ -138,5 +140,16 @@ public class first_boot_system extends AppCompatActivity implements View.OnClick
         }
     }
     public static String getname() { return name; }
+    private void enableFullscreen() {
+        View decorView = getWindow().getDecorView();
+        decorView.setSystemUiVisibility(
+                View.SYSTEM_UI_FLAG_LAYOUT_STABLE |
+                        View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION |
+                        View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN |
+                        View.SYSTEM_UI_FLAG_FULLSCREEN |
+                        View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY |
+                        View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+        );
+    }
 }
 

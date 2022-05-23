@@ -31,7 +31,7 @@ public class settings_screen extends AppCompatActivity{
         SharedPreferences sharedPreferences = getSharedPreferences("save",MODE_PRIVATE);
         audioSwitch = (SwitchCompat) findViewById(R.id.switch1);
         audioSwitch.setChecked(sharedPreferences.getBoolean("value",true));
-
+        enableFullscreen();
 
         
         audioSwitch.setOnClickListener(new View.OnClickListener() {
@@ -74,5 +74,17 @@ public class settings_screen extends AppCompatActivity{
                 Toast.makeText(settings_screen.this, "The app is already running in the latest version", Toast.LENGTH_LONG).show();
             }
         });
+
+    }
+    private void enableFullscreen() {
+        View decorView = getWindow().getDecorView();
+        decorView.setSystemUiVisibility(
+                View.SYSTEM_UI_FLAG_LAYOUT_STABLE |
+                        View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION |
+                        View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN |
+                        View.SYSTEM_UI_FLAG_FULLSCREEN |
+                        View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY |
+                        View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+        );
     }
 }
