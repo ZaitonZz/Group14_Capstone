@@ -3,7 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/settingspln">
 
     <Button
         android:id="@+id/btn_yes2"
@@ -12,6 +14,9 @@
         android:layout_marginStart="68dp"
         android:layout_marginTop="140dp"
         android:text="Yes"
+        android:textColor="#3E2C1E"
+        android:backgroundTint="#BF8227"
+        android:textSize="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/questions" />
 
@@ -21,6 +26,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
         android:text="Filipino"
+        android:backgroundTint="#BF8227"
+
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/chavacano"
@@ -32,6 +41,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="29dp"
         android:text="Cebuano"
+        android:textColor="#3E2C1E"
+        android:backgroundTint="#BF8227"
+
+        android:textSize="15dp"
         app:layout_constraintEnd_toStartOf="@+id/chavacano"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
@@ -43,8 +56,12 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="216dp"
         android:text="Chavacano"
+        android:backgroundTint="#BF8227"
+
         app:layout_constraintEnd_toStartOf="@+id/filipino"
         app:layout_constraintHorizontal_bias="0.5"
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
         app:layout_constraintStart_toEndOf="@+id/cebuano"
         app:layout_constraintTop_toBottomOf="@+id/questions" />
 
@@ -54,6 +71,10 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="204dp"
         android:layout_marginBottom="232dp"
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
+        android:backgroundTint="#BF8227"
+
         android:text="Learn New Dialect"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -66,7 +87,10 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
         android:text="LOADING PROFILE DATA"
+        android:textSize="30dp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#3E2C1E"
         app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -75,19 +99,25 @@
         android:id="@+id/btn_nxt"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:backgroundTint="#BF8227"
         android:layout_marginBottom="24dp"
         android:text="Next"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
         app:layout_constraintHorizontal_bias="0.974"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/new_user"
+        android:backgroundTint="#BF8227"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="228dp"
         android:layout_marginBottom="232dp"
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
         android:text="Create New user"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -102,6 +132,8 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:hint="Place Name"
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.479"
         app:layout_constraintStart_toStartOf="parent"
@@ -113,7 +145,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="68dp"
         android:layout_marginTop="140dp"
+        android:backgroundTint="#BF8227"
         android:text="Yes"
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/questions" />
 
@@ -124,6 +159,9 @@
         android:layout_marginTop="140dp"
         android:layout_marginEnd="48dp"
         android:text="No"
+        android:backgroundTint="#BF8227"
+        android:textColor="#3E2C1E"
+        android:textSize="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/questions" />
 
@@ -134,6 +172,9 @@
         android:layout_marginStart="119dp"
         android:layout_marginTop="140dp"
         android:layout_marginEnd="48dp"
+        android:textColor="#3E2C1E"
+        android:backgroundTint="#BF8227"
+        android:textSize="15dp"
         android:text="No"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/btn_yes2"

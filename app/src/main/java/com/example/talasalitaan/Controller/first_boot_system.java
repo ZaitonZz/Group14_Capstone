@@ -97,26 +97,30 @@ public class first_boot_system extends AppCompatActivity implements View.OnClick
 
                 break;
             case R.id.learn_new:
-                changeScene.setScene(5);
                 Log.d(TAG, "learn new dialect");
+                changeScene.setScene(5);
                 controls.nextScene(changeScene,  txtQ,  btnNew, btnLearn,  btnNext , this ,  btnChavacano,  btnFilipino, btnNo1, btnYes1,  btnCebuano ,userName,name, btnYes2,btnNo2);
-
                 break;
             case R.id.cebuano:
                 language = 1;
                 dialect = ("Cebuano");
                 Log.d(TAG, "Cebuano Dialect");
+                changeScene.setScene(changeScene.getScene()+1);
+                controls.nextScene(changeScene,  txtQ,  btnNew, btnLearn,  btnNext , this ,  btnChavacano,  btnFilipino, btnNo1, btnYes1,  btnCebuano ,userName,name, btnYes2,btnNo2);
                 break;
             case R.id.chavacano:
                 language = 2;
                 dialect = ("Chavacano");
                 Log.d(TAG, "Chavacano Dialect");
-
+                changeScene.setScene(changeScene.getScene()+1);
+                controls.nextScene(changeScene,  txtQ,  btnNew, btnLearn,  btnNext , this ,  btnChavacano,  btnFilipino, btnNo1, btnYes1,  btnCebuano ,userName,name, btnYes2,btnNo2);
                 break;
             case R.id.filipino:
                 language = 3;
                 dialect = ("Filipino");
                 Log.d(TAG, "Filipino Dialect");
+                changeScene.setScene(changeScene.getScene()+1);
+                controls.nextScene(changeScene,  txtQ,  btnNew, btnLearn,  btnNext , this ,  btnChavacano,  btnFilipino, btnNo1, btnYes1,  btnCebuano ,userName,name, btnYes2,btnNo2);
                 break;
             case R.id.btn_no1:
             case R.id.btn_no2:

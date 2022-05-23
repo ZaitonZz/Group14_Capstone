@@ -44,13 +44,17 @@ public class pause_screen extends AppCompatActivity {
         btnSettings.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(pause_screen.this, com.example.talasalitaan.View.settings_screen.class)); }});
+                startActivity(new Intent(pause_screen.this, com.example.talasalitaan.View.settings_screen.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+            }});
         getWindow().setAttributes(params);
         btnMainMenu = (Button) findViewById(R.id.btn_MainMenu);
         btnMainMenu.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(pause_screen.this, com.example.talasalitaan.View.main_menu_confirmation.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+
             }
         });
         btnExitGame = (Button) findViewById(R.id.btn_Exit2);
@@ -58,6 +62,8 @@ public class pause_screen extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(pause_screen.this, com.example.talasalitaan.View.exit_confirmation.class));
+                overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
+
             }
         });
     }
