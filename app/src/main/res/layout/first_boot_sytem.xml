@@ -27,9 +27,9 @@
         android:layout_marginTop="29dp"
         android:text="Filipino"
         android:backgroundTint="#BF8227"
-
         android:textColor="#3E2C1E"
         android:textSize="15dp"
+
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/chavacano"
@@ -43,8 +43,8 @@
         android:text="Cebuano"
         android:textColor="#3E2C1E"
         android:backgroundTint="#BF8227"
-
         android:textSize="15dp"
+
         app:layout_constraintEnd_toStartOf="@+id/chavacano"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"

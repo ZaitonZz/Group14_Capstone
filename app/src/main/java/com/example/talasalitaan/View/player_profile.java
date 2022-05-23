@@ -30,7 +30,6 @@ public class player_profile extends AppCompatActivity implements View.OnClickLis
             case R.id.btn_BACK4:
                 startActivity(new Intent(player_profile.this, main_menu.class));
                 overridePendingTransition(android.R.anim.fade_in, android.R.anim.fade_out);
-
                 break;
         }
     }
